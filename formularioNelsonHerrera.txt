@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post">
+        <h1>Mi Formulario de Registro </h1>
+        <p>                                                             <!-- CAMPOS A LLENAR -->
+          <label for="name">                                            <!-- NOMBRE -->
+          <span>Name: </span>
+          <strong><abbr title="required">*</abbr></strong>
+          </label>
+          <input type="text" id="name" name="username">
+        </p>
+        <p>
+          <label for="apellido">                                      <!-- APELLIDO -->
+          <span>Apellido: </span>
+          <strong><abbr title="required">*</abbr></strong>
+          </label>
+          <input type="text" id="apellido" name="userapellido">
+        </p>
+        <p>
+          <label for="mail">
+          <span>E-mail: </span>
+          <strong><abbr title="required">*</abbr></strong>
+          </label>
+          <input type="email" id="mail" name="usermail">
+        </p>
+        <p>
+          <label for="pwd">
+          <span>Password: </span>
+          <strong><abbr title="required">*</abbr></strong>
+          </label>
+          <input type="password" id="pwd" name="pwd">
+        </p>
+        <!-- repitação senha -->
+       
+            <label for="pwd">
+              <span>Repita Password: </span>
+              <strong><abbr title="required">*</abbr></strong>
+            </label>
+            <input type="password" id="pwd2" name="pwd">
+       
+        <section>
+       
+        <p>
+            <label for="lenguaje">
+            <span>lenguaje favorito:</span>
+            </label>
+            <select id="lenguaje" name="userlenguaje">
+                <option value="C">C</option>
+                <option value="Python">Python</option>
+                <option value="Java">Java</option>
+            </select>
+        </p>
+        
+        <p>
+          <label for="date">
+          <span>Cumpleanos:</span>
+          <strong><abbr title="required">*</abbr></strong>
+          <em>formato como mm/dd/yyyy</em>
+          </label>
+          <input type="date" id="date" name="expiration">
+        </p>
+
+        <label for="femenino">Femenino</label>
+        <input type="checkbox" id="femenino" name="sexo" value="femenino">
+        <label for="masc">Masculino</label>
+        <input type="checkbox" id="masc" name="sexo" value="masculino">
+        <label for="otro">Otro</label>
+        <input type="checkbox" id="otro" name="sexo" value="otro">
+
+        <h3> Una descripción de ti </h3>
+        <textarea name="description"></textarea>
+
+          
+        <p> <button type="submit">enviar</button> </p>
+        </section>
+    </form>
+</body>
+</html>
+

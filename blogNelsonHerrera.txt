@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Internacional de Porto Alegre</h1><br><br>
+    <p>Time de futebol mais popular do sul do Brasil , chamado time Colorado. Representa o povo ou raça gaucha , do qual seu primer campeonato do Brasileirão
+       foi no ano 1975 , com o famoso gol do chileno Figueroa , chamado o gol dourado, porque no momento que Figueroa bate a bola com a cabeça , ilumina sua testa
+       um raio de sol . Campeão invito o ano 1979 , sindo 4 vezes campeão brasileiro , conquistando tambem o campeonato mundial de clubes o ano 2006. </p>
+
+ <img src="https://media.internacional.groundsportech.com/wp-content/uploads/2020/01/30220402/Figueroa5.jpg" alt="Figueroa Inter"><br><br>
+
+    <table>
+        <tr>
+            <th>Campeão</th>
+            <th>Ano</th>
+            <th>Região</th>
+        </tr>
+        <tr>
+            <td>Brasileirão</td>
+            <td>1975</td>
+            <td>Brasil</td>
+        </tr>
+        <tr>
+            <td>Brasileirão</td>
+            <td>1976</td>
+            <td>Brasil</td>
+        </tr>
+        <tr>
+            <td>Brasileirão</td>
+            <td>1979</td>
+            <td>Brasil</td>
+        </tr>
+        <tr>
+            <td>Libertadores</td>
+            <td>2006</td>
+            <td>Sul América</td>
+        </tr>
+        <tr>
+            <td>Copa Mundial Clubes</td>
+            <td>2006</td>
+            <td>Mundial</td>
+        </tr>
+        <tr>
+            <td> Recopa SulAmericana</td>
+            <td>2007</td>
+            <td>Sul América</td>
+        </tr>
+        <tr>
+            <td> SulAmericana</td>
+            <td>2008</td>
+            <td>Sul América</td>
+        </tr>
+        <tr>
+            <td> Libertadores</td>
+            <td>2010</td>
+            <td>Sul América</td>
+        </tr>
+        <tr>
+            <td> Recopa SulAmericana</td>
+            <td>2011</td>
+            <td>Sul América</td>
+        </tr>
+
+     
+       
+    </table>
+
+    <br><br>
+    <h2>Idolos de todos os Tempos </h2>
+    <ul>
+        <li> Larry Pinto de Faria</li>
+        <li> Bodinho</li>
+        <li>Falcão</li>
+        <li>Elias Figueroa</li>
+        <li>Valdomiro</li>
+        <li> Claudiomiro</li>
+        <li>Manga</li>
+        <li>Caçapava</li>
+        <li> Fernandão</li>
+        <li>D'Alessandro</li>
+
+    </ul>
+    <br><br>
+    <a href="https://www.youtube.com/watch?v=szz2ZoHhCcE">Ir a ver video</a> <br><br>
+
+    <h1>ENCUESTA</h1>
+    <form action="/action_page.php">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="Juan"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Moya"><br><br>
+
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br>
+        <h2>¿Cómo supiste de nosotros</h2>
+        <input type="checkbox" id="email" name="email" value="1">
+        <label for="email"> Por email ?</label><br>
+        <input type="checkbox" id="website" name="website" value="2">
+        <label for="website"> Página Web?</label><br>
+        <input type="checkbox" id="facebook" name="facebook" value="3">
+        <label for="facebook"> Facebook ? </label><br>
+        
+        <br>
+        <input type="submit" value="Submit">
+
+    </form> 
+</body>
+</html>
